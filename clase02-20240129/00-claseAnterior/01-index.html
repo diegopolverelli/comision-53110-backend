@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        const encabezado2 = (texto, color = "black", size = 12) => {
+            return `<h2 style="color: ${color}; font-size: ${size}px;">${texto}</h2>`
+        }
+
+        document.body.innerHTML+=encabezado2("Curso Backend","red",48)
+        document.body.innerHTML+=encabezado2("Lunes y miércoles","green",24)
+
+</script>
+</body>
+
+</html>
