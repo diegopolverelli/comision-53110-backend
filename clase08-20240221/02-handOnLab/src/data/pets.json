@@ -1,0 +1,42 @@
+[
+     {
+          "id": 1,
+          "nombre": "Azrael",
+          "especie": "gato"
+     },
+     {
+          "id": 2,
+          "nombre": "Gringer",
+          "especie": "tigre"
+     },
+     {
+          "id": 3,
+          "nombre": "Cringer",
+          "especie": "tigre"
+     },
+     {
+          "id": 4,
+          "nombre": "Cringer",
+          "especie": "tigre"
+     },
+     {
+          "id": 5,
+          "nombre": "Cringer",
+          "especie": "tigre"
+     },
+     {
+          "id": 6,
+          "nombre": "Cringer",
+          "especie": "tigre"
+     },
+     {
+          "id": 7,
+          "nombre": "Cringer",
+          "especie": "tigre"
+     },
+     {
+          "id": 8,
+          "nombre": "Cringer",
+          "especie": "tigre"
+     }
+]
