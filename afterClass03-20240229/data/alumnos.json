@@ -1,0 +1,37 @@
+[
+     {
+          "nombre": "Juan",
+          "email": "juan@test.com",
+          "cursos": [],
+          "id": 1
+     },
+     {
+          "nombre": "Miguel",
+          "email": "miguel@test.com",
+          "cursos": [],
+          "id": 2
+     },
+     {
+          "nombre": "Claudia",
+          "email": "claudia@test.com",
+          "cursos": [
+               {
+                    "id": 5,
+                    "descrip": "Economía",
+                    "intentosInscripcion": 2
+               },
+               {
+                    "id": 2,
+                    "descrip": "Programación II",
+                    "intentosInscripcion": 1
+               }
+          ],
+          "id": 3
+     },
+     {
+          "nombre": "Marta",
+          "email": "marta@test.com",
+          "cursos": [],
+          "id": 4
+     }
+]
