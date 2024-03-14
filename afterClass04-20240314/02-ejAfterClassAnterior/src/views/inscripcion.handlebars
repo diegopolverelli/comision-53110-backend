@@ -1,0 +1,13 @@
+<h2>Inscripcion a cursos alumno {{alumno.nombre}} - legajo: <span id="idAlumno">{{alumno.id}}</span></h2>
+
+
+<hr>
+<h3>Listado de cursos disponibles:</h3>
+<ul id="cursos">
+    {{#each cursos}}
+        <li>{{descrip}} <button onclick="inscribir('{{id}}','{{descrip}}')">Inscribir</button></li>
+    {{/each}}
+</ul>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/inscripcion.js"></script>

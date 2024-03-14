@@ -1,0 +1,13 @@
+<h2>Home Page</h2>
+<hr>
+
+<h2>Alumnos:</h2>
+<ul>
+    {{#each alumnos}}
+        <li>
+            <a href="/inscripcion?idAlumno={{id}}">{{nombre}}</a>
+        </li>
+    {{/each}}
+</ul>
+
+{{!-- <a href="/inscripcion">Inscripcion</a> --}}

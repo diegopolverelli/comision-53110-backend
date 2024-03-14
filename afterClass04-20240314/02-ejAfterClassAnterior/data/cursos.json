@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "descrip":"Matemática Discreta I"
+    },
+    {
+        "id":2,
+        "descrip":"Programación II"
+    },
+    {
+        "id":3,
+        "descrip":"Base de Datos"
+    },
+    {
+        "id":5,
+        "descrip":"Economía"
+    }
+]

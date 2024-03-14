@@ -1,0 +1,16 @@
+{
+     "contenidoStr": "{\n  \"name\": \"01-ejerciciosvarios\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"01-ejercicio01.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"keywords\": [],\n  \"author\": \"\",\n  \"license\": \"ISC\"\n}\n",
+     "contenidoObj": {
+          "name": "01-ejerciciosvarios",
+          "version": "1.0.0",
+          "description": "",
+          "main": "01-ejercicio01.js",
+          "scripts": {
+               "test": "echo \"Error: no test specified\" && exit 1"
+          },
+          "keywords": [],
+          "author": "",
+          "license": "ISC"
+     },
+     "size": 242
+}

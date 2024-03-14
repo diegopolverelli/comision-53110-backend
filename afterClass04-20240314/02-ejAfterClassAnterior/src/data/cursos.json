@@ -1,0 +1,46 @@
+[
+     {
+          "id": 1,
+          "descrip": "Matemática Discreta I"
+     },
+     {
+          "id": 2,
+          "descrip": "Programación II"
+     },
+     {
+          "id": 3,
+          "descrip": "Base de Datos"
+     },
+     {
+          "id": 5,
+          "descrip": "Economía"
+     },
+     {
+          "id": 6,
+          "descrip": "JavaScript II"
+     },
+     {
+          "id": 7,
+          "descrip": "JavaScript I"
+     },
+     {
+          "id": 8,
+          "descrip": "SQL I"
+     },
+     {
+          "id": 9,
+          "descrip": "SQL II"
+     },
+     {
+          "id": 10,
+          "descrip": "Python II"
+     },
+     {
+          "id": 11,
+          "descrip": "Python Inicial"
+     },
+     {
+          "id": 12,
+          "descrip": "Calculo III"
+     }
+]

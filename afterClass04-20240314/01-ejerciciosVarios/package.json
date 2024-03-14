@@ -1,0 +1,12 @@
+{
+  "name": "01-ejerciciosvarios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-ejercicio01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
