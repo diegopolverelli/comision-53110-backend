@@ -1,0 +1,36 @@
+<h2>Usuarios:</h2>
+<hr>
+<ul>
+    {{#each usuarios}}
+
+        <li>
+            Nombre: {{first_name}} {{last_name}} - email: <strong>{{email}}</strong> - code: {{code}}
+        </li>
+
+    {{/each}}
+</ul>
+
+<a href="/usuarios?pagina=1">Pag.1</a>
+
+{{#if hasPrevPage}}
+    <a href="/usuarios?pagina={{prevPage}}">Pag.Ant.</a>
+{{/if}}
+
+{{#if hasNextPage}}
+    <a href="/usuarios?pagina={{nextPage}}">Pag.Sig.</a>
+{{/if}}
+
+<a href="/usuarios?pagina={{totalPages}}">Ult. Pag.</a>
+
+<input type="text" id="pagina">
+
+<script>
+    let inputPagina=document.getElementById("pagina")
+
+    inputPagina.addEventListener("change", e=>{
+        e.preventDefault()
+        //alert("cambio")
+        window.location.href="/usuarios?pagina="+inputPagina.value
+    })
+
+</script>
