@@ -28,7 +28,7 @@ app.use(sessions({
 }))
 initPassport()
 app.use(passport.initialize())
-app.use(sessions())
+app.use(passport.session())
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
