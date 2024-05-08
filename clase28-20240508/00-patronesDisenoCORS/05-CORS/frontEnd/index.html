@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Front</h2>
+    <hr>
+    <code id="datos"></code>
+    <br>
+    <button onclick="getData()">Obtener Datos</button>
+
+    <script>
+        let codeDatos=document.getElementById("datos")
+        const getData=async()=>{
+            let response=await fetch("http://localhost:3000/datos",{})
+            let datos=await response.json()
+            console.log(datos)
+            codeDatos.textContent=datos.payload
+        }
+    </script>
+</body>
+</html>
