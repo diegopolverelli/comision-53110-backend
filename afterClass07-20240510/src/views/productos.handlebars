@@ -1,0 +1,15 @@
+<h2>Productos:</h2>
+<hr>
+<h3 data-carrito="{{usuario.carrito}}" id="h3Usuario">Usuario conectado: {{usuario.nombre}}</h3>
+{{!-- <input type="text" id="carrito" value="{{usuario.carrito}}" hidden> --}}
+<ul>
+    {{#each productos}}
+        <li>
+            {{descripcion}} - precio: {{precio}} <button onclick="agregar('{{_id}}')">Agregar a carrito</button>
+        </li>
+    {{/each}}
+</ul>
+
+<a href="/api/carritos/{{usuario.carrito}}">VerCarrito</a>
+
+<script src="/js/productos.js"></script>
