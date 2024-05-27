@@ -1,0 +1,11 @@
+{
+  "name": "02-yarnNuevasVersiones",
+  "packageManager": "yarn@4.2.2",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
