@@ -1,0 +1,100 @@
+{
+  level: 'error',
+  message: 'Complete al menos la propiedad name',
+  timestamp: '2024-05-29T14:06:33.152Z'
+}
+{
+  level: 'error',
+  message: 'Ha ingresado propiedades invalidas. \n' +
+    'Props. ingresadas: {\n' +
+    '     "name": "Groot",\n' +
+    '     "edad": 38,\n' +
+    '     "team": "Guardianes"\n' +
+    '}',
+  timestamp: '2024-05-29T14:08:48.143Z'
+}
+{
+  level: 'error',
+  message: 'Ha ingresado propiedades invalidas. \n' +
+    'Props. ingresadas: {\n' +
+    '     "name": "Groot",\n' +
+    '     "altura": 2.38,\n' +
+    '     "team": "Guardianes"\n' +
+    '}',
+  timestamp: '2024-05-29T14:08:56.963Z'
+}
+{ level: 'error', timestamp: '2024-05-29T14:21:32.154Z' }
+{ level: 'error', timestamp: '2024-05-29T14:24:35.692Z' }
+{
+  message: 'prueba log level warn',
+  level: 'warn',
+  timestamp: '2024-05-29T15:19:10.810Z'
+}
+{
+  message: 'prueba log level error',
+  level: 'error',
+  timestamp: '2024-05-29T15:19:10.814Z'
+}
+{
+  message: 'prueba log level warn',
+  level: 'warn',
+  timestamp: '2024-05-29T15:19:40.104Z'
+}
+{
+  message: 'prueba log level error',
+  level: 'error',
+  timestamp: '2024-05-29T15:19:40.108Z'
+}
+{ level: 'error', timestamp: '2024-05-29T15:19:51.095Z' }
+{
+  message: 'prueba log level warn',
+  level: 'warn',
+  timestamp: '2024-05-29T15:20:04.770Z'
+}
+{
+  message: 'prueba log level error',
+  level: 'error',
+  timestamp: '2024-05-29T15:20:04.772Z'
+}
+{ level: 'error', timestamp: '2024-05-29T15:20:38.498Z' }
+{ level: 'error', timestamp: '2024-05-29T15:20:59.543Z' }
+{
+  message: 'fafafa is not defined',
+  level: 'error',
+  timestamp: '2024-05-29T15:21:11.948Z'
+}
+{
+  message: 'fafafa is not defined',
+  level: 'error',
+  timestamp: '2024-05-29T15:21:13.002Z'
+}
+{
+  message: 'fafafa is not defined',
+  level: 'error',
+  timestamp: '2024-05-29T15:22:03.464Z'
+}
+{
+  message: 'prueba log level warn',
+  level: 'warn',
+  timestamp: '2024-05-29T15:22:17.783Z'
+}
+{
+  message: 'prueba log level error',
+  level: 'error',
+  timestamp: '2024-05-29T15:22:17.785Z'
+}
+{
+  message: 'fafafa is not defined',
+  level: 'error',
+  timestamp: '2024-05-29T15:29:59.978Z'
+}
+{
+  message: 'fafafa is not defined',
+  level: 'error',
+  timestamp: '2024-05-29T15:30:48.957Z'
+}
+{
+  message: 'fafafa is not defined',
+  level: 'error',
+  timestamp: '2024-05-29T15:31:07.165Z'
+}
