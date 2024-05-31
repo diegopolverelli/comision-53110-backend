@@ -1,0 +1,12 @@
+<h2>Carrito de {{usuario.nombre}}</h2>
+<h3>Id carrito: {{carrito._id}}</h3>
+<hr>
+<ul>
+    {{#each carrito.productos}}
+        <li>
+            {{producto.descripcion}} - cantidad: {{cantidad}} - precio: {{producto.precio}}
+        </li>
+    {{/each}}
+</ul>
+<br>
+<a href="/productos">Seguir comprando</a>
