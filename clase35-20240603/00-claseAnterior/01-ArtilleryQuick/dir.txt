@@ -1,0 +1,12 @@
+
+    Directory: C:\Users\diego\dev\Coder-53110\clases\clase35-ClustersEscalabilidad\clase\00-claseAnterior\01-ArtilleryQuick
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----            2/6/2024    19:40                node_modules
+d----            2/6/2024    19:40                src
+-a---            3/6/2024    10:23              0 dir.txt
+-a---           28/5/2024    21:58          24953 package-lock.json
+-a---           28/5/2024    11:42            387 package.json
+-a---            3/6/2024    10:22           4202 resultado01.txt
+

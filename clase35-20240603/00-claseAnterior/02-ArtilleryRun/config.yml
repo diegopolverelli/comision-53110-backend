@@ -1,0 +1,65 @@
+config:
+  # This is a test server run by team Artillery
+  # It's designed to be highly scalable
+  target: http://localhost:3000
+  phases:
+    - duration: 10
+      arrivalRate: 5
+      rampTo: 10
+      name: Fase 1
+    - duration: 10
+      arrivalRate: 10
+      rampTo: 5
+      name: Fase 2
+    # - duration: 30
+    #   arrivalRate: 10
+    #   rampTo: 30
+    #   name: Spike phase
+  # Load & configure a couple of useful plugins
+  # https://docs.art/reference/extensions
+  # plugins:
+  #   ensure: {}
+  #   apdex: {}
+  #   metrics-by-endpoint: {}
+  # apdex:
+  #   threshold: 100
+  # ensure:
+  #   thresholds:
+  #     - http.response_time.p99: 100
+  #     - http.response_time.p95: 75
+scenarios:
+  - flow:
+      - loop:
+          - get:
+              url: '/usuario'
+              capture:
+                - json: "$.usuario.nombre"
+                  as: "nombre1"
+                - json: "$.usuario.apellido"
+                  as: "apellido"
+                - json: "$.usuario.email"
+                  as: "email"
+                - json: "$.usuario.password"
+                  as: "password"
+          # - log: "Usuario generado {{nombre1}} {{apellido}}"
+          - post:
+              url: '/api/sessions/registro'
+              json:
+                nombre: "{{nombre1}}"
+                apellido: "{{apellido}}"
+                email: "{{email}}"
+                password: "{{password}}"
+              capture:
+                - json: "$.nuevoUsuario._id"
+                  as: "mongoID"
+          - log: "Usuario generado {{nombre1}} {{apellido}} - mongoid: {{mongoID}}"
+          - post:
+              url: '/api/sessions/login'
+              json:
+                email: "{{email}}"
+                password: "{{password}}"
+              headers:
+                authorization: "Bearer + token que capturo previamente... "
+          # - get:
+          #     url: '/armadillo'
+        count: 1
