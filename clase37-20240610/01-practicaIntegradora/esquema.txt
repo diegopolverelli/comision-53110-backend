@@ -1,0 +1,13 @@
+- recupero01.html: pida con un form la direccion de email asociada al usuario cuya
+clave quiero recuperar
+- post /api/sessions/recupero01, leer el email del body, verificar si existe, 
+generar un token jwt, enviar un mail link http://localhost:3000/api/sessions/recupero02?token=adsfaldkfjalkdsfj393939.dadf8
+Al terminar redirigir a recupero01.html con un mensaje de "revise su mail y siga los pasos..."
+- get /api/sessions/recupero02  recuperar token del queryparams, validarlo
+redirigir a una vista o html donde se pida clave y reitere la clave, y cuando haga
+submit, redirija a /api/sessions/recupero03 que actualiza. La redireccion a la vista
+tiene que incluir el token... res.status(200).redirect("/recupero02.html?token="+token)
+- recupero02.html que pida password y retire password, y al hacer submit, lleve Math.floor(Math.random()*()+)      // Math.floor(Math.random()*(cantNrosAGenerar)+aPartirDelNro)
+/api/sessions/recupero03, donde se actualiza. En la vista tenemos que levantar el token
+y enviarlo también a /api/sessions/recupero03
+- post /api/sessions/recupero03, que lee password y password2, valida y actualiza... 

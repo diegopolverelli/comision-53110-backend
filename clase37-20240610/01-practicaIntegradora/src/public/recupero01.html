@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <h2>Resetear password</h2>
+    <hr>
+    <form action="/api/sessions/recupero01" method="post">
+        <div id="mensaje"></div>
+        <input type="email" name="email" placeholder="Ingrese su email">
+
+        <input type="submit" value="Inicia preceso reseteo password">
+    </form>
+    <br><br>
+    <a href="/registro.html">Registro</a>
+
+    <script src="js/recupero01.js"></script>
+</body>
+</html>
