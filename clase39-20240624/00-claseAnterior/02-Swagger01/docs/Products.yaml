@@ -1,0 +1,10 @@
+paths:
+  /api/products:
+    get:
+      summary: Returns a list of products.
+      tags:
+        - Products      
+      description: Optional extended description in CommonMark or HTML.
+      responses:
+        '200':    # status code
+          description: A JSON array of product names
